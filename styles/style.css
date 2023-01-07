@@ -30,11 +30,18 @@ body{
     font-size: 17px;
     font-weight: 600;
     letter-spacing: 1.3px;
-    border: none;
+    border: 2px solid transparent;
+    transition: all .3s ease;
+    
 }
 .btn-secondary{
     background-color:#fff;
     color: #005FAC;
+}
+.btn-secondary:hover{
+    background-color:#002d52af;
+    color: #fff;
+    border: 2px solid #fff;
 }
 /* ============================================================
         -----------Header Banner Styles-----------
@@ -123,3 +130,35 @@ header{
 .summery-item > p{
     padding-left: 10px;
 }
+
+/* ============================================================
+        -----New Year Planing Section Styles----
+=============================================================== */
+.planing-section{
+    width: 80%;
+    margin: 5rem auto ;
+    padding-top: 3rem;
+    text-align: center; 
+}
+.planing-section > h2{
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 4rem;
+    font-weight: bold;
+}
+
+.year-plannings{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.plan > h3{
+    margin: 20px 0;
+    font-size: 22px;
+}
+.plan > p{
+    color: #474747;
+    font-size: 18px;
+    font-weight: bold;
+}
+
