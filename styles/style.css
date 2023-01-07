@@ -168,12 +168,12 @@ header{
 }
 
 /* ============================================================
-          -----Positive mindset Section style----
+          -----Positive mindset Section styles----
 =============================================================== */
 
 .bottom-banner{
     width: 80%;
-    margin: 7rem auto 7rem;
+    margin: 7rem auto 5rem;
     height: 268px;
     background-image: url("../images/watch.png"),linear-gradient(to left, rgba(255,0,0,0), rgb(0, 95, 172));;
     background-blend-mode: overlay;
@@ -198,7 +198,79 @@ header{
 }
 
 /* ============================================================
-                 -----Footer style----
+          -----Exercise gallery Section styles----
+=============================================================== */
+.exercise-section{
+    width: 80%;
+    margin: 0 auto 7rem;
+    padding-top: 5rem;
+}
+.exercise-section > h2{
+    font-size: 36px;
+    line-height: 47px;
+    font-weight: bold;
+    text-align: center;
+}
+.exercise-section img{
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 0 rgb(157 157 157 / 68%), -2px -2px 2px 0 rgb(157 157 157 / 68%);
+    transition: all .25s ease;
+ }
+ .exercise-section img:hover{
+    transform: scale(1.05);
+ }
+.border-img-wrapper{
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 5rem;
+
+}
+.border-img-wrapper > img{
+    width: 65%;
+    margin: 0 auto;
+    filter: drop-shadow(3px 3px 1px rgba(85, 85, 85, 0.548));
+    box-shadow: none;
+    
+}
+
+.first-img-wrapper{
+    width: 50%;
+    margin: 0 auto;
+}
+.first-img-wrapper > img{
+    width: 100%;
+    margin-bottom: .8rem;
+    
+}
+.mid-img-wrapper{
+    display: flex;
+    gap: 1.25rem;
+}
+
+.gallery-img-left{
+  width: 50%;
+}
+.gallery-img-left > img{
+    width: 100%;
+  }
+.gallery-img-right{
+    width: 50%;
+}
+.gallery-img-right > img{
+    width: 100%;
+}
+.last-img-wrapper{
+    width: 50%;
+    margin: .8rem auto;
+
+}
+.last-img-wrapper > img{
+    width: 100%;
+    
+}
+/* ============================================================
+                 -----Footer styles----
 =============================================================== */
 
 footer{
