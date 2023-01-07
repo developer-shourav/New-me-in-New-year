@@ -32,8 +32,12 @@ body{
     letter-spacing: 1.3px;
     border: 2px solid transparent;
     cursor: pointer;
-    transition: all .3s ease;
-    
+    transition: all .3s ease;   
+}
+.btn:hover{
+    background-color:#fff;
+    color: #005FAC;  
+    border: 2px solid #005FAC;
 }
 .btn-secondary{
     background-color:#fff;
@@ -168,7 +172,7 @@ header{
 =============================================================== */
 
 .bottom-banner{
-    width: 75%;
+    width: 80%;
     margin: 7rem auto 7rem;
     height: 268px;
     background-image: url("../images/watch.png"),linear-gradient(to left, rgba(255,0,0,0), rgb(0, 95, 172));;
@@ -192,3 +196,58 @@ header{
     color: #FFFFFF;
     margin-bottom: 20px;
 }
+
+/* ============================================================
+                 -----Footer style----
+=============================================================== */
+
+footer{
+    width: 100%;
+    background-color: #151414;
+    color: #fff;
+    padding: 5rem 0 3rem;
+}
+
+.footer-wrapper{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-div > h3{
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 53px;
+    color: #F8F8F8;
+
+}
+.contact-div p{
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 26px;
+    color: #dfdfdf;
+
+}
+.social-icons-div{
+    display: flex;
+    margin-top: 40px;
+    gap: 1rem;
+}
+
+.subscription-div > h4{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.subscription-div > input{
+    background-color: transparent;
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 5px;
+    padding: 18px 60px 18px 10px;
+    font-size: 17px;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
