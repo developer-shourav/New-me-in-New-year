@@ -128,7 +128,7 @@ header{
 
 .summery-item{
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     margin: 8px 0;
     color: #363636;
 }
@@ -213,11 +213,11 @@ header{
 }
 .exercise-section img{
     border-radius: 8px;
-    box-shadow: 2px 2px 2px 0 rgb(157 157 157 / 68%), -2px -2px 2px 0 rgb(157 157 157 / 68%);
+    box-shadow: 2px 2px 4px 0 #8a8a8aad, -2px -2px 2px 0 #cfcfcfad;
     transition: all .25s ease;
  }
  .exercise-section img:hover{
-    transform: scale(1.05);
+    transform: scale(1.04);
  }
 .border-img-wrapper{
     width: 65%;
@@ -231,9 +231,10 @@ header{
     margin: 0 auto;
     filter: drop-shadow(3px 3px 1px rgba(85, 85, 85, 0.548));
     box-shadow: none;
-    
 }
-
+.border-img-wrapper > img:hover{
+    transform: scale(1);
+}
 .first-img-wrapper{
     width: 50%;
     margin: 0 auto;
